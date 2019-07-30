@@ -1,0 +1,132 @@
+/* #region NAVBAR */
+.nav-link-override {
+    color: white !important;
+    font-size: 3vw;
+}
+
+#bk-nav-logo {
+    /* width: 100%; */
+    width: auto;
+    max-height: 90px;
+}
+
+.nav-transparent {
+    background-color: rgba(255,255,255,.40) !important;
+    /* border-radius: 50px 50px 5px 5px; */
+}
+
+.navbar-toggler-color {
+    background-color: rgba(255,255,255,0.5) !important;
+    border: 1px solid rgba(0, 0, 0, 0.8) !important;
+}
+
+.bg-dropdown-menu {
+    background-color: rgba(255,255,255,.01) !important;
+}
+
+.navbar-white .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-text {
+    font-size: 2rem;
+    /* font-weight: 500; */
+    text-shadow: 2px 2px 0px rgb(68, 68, 68);
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
+}
+
+.navbar-white .nav-text a:hover {
+    border-bottom: 3px solid rgba(20, 20, 20, 0.5);
+}
+
+.navbar-white a.active {
+    border-bottom: 3px solid rgb(0, 82, 97);
+}
+
+#navbar .container {
+    max-height: 90px;
+}
+
+@media (min-width: 901px) {
+    #bk-nav-logo-min {
+    display:none;
+    }
+    .navbar-brand-sizing {
+    width:80%;
+    }
+}
+
+@media (max-width:900px) {
+    #bk-nav-logo {
+        display: none;
+    }
+    .navbar-brand-sizing {
+        width:20%;
+    }
+    /* #bk-nav-logo-min {
+        display: inline-block;
+    } */
+    .
+}
+
+/* #endregion NABAR */
+
+#loremPadding {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: fit-content(30%) fit-content(40%) fit-content(40%);
+}
+
+.flex-menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-menu > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 1em;
+    vertical-align: 50%;
+}
+
+.navbar-light .navbar-nav li.active::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    content: " ";
+    color: #F4C127;
+    border-bottom: 5px solid #F4C127;
+  }
+
+#accordion {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.menu-card-size {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.active-color {
+    color: #f1f1f1 !important;
+    background-color: rgb(0, 168, 50) !important;
+    border-color: rgb(0, 124, 37) !important;
+}

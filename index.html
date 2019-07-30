@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Big Kitchen Cafe</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo/favicon.ico">
+</head>
+<body id="home" data-spy="scroll" data-target="#navNavbar" data-offset="100">
+  <!-- NAVBAR -->
+  <nav id="navNavbar" class="navbar navbar-expand-sm bg-white navbar-white bg-transparent nav-transparent fixed-top">
+      <div class="container">
+        <a id="logo" href="index.html" class="navbar-brand navbar-brand-sizing">
+          <img id="bk-nav-logo" src="img/logo/transparentHeader.png" alt="The Big Kitchen Cafe">
+          <img id="bk-nav-logo-min" src="img/logo/just-BK.png" alt="The Big Kitchen Cafe">
+        </a>
+        <button class="navbar-toggler navbar-toggler-color" data-toggle="collapse" data-target="#navNavbar" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navNavbar">
+          <ul class="navbar-nav nav-text bg-dropdown-menu">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link nav-link-override">Top</a>
+            </li>
+            <li class="nav-item">
+              <a href="#menuHeaderContainer" class="nav-link nav-link-override">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link nav-link-override">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#events" class="nav-link nav-link-override">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link nav-link-override">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link nav-link-override">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div id="carouselHero" class="carousel slide carousel-fade " data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/carousel/closeup1_1200x600.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7:30am — 2:30pm</h5>
+              <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7 days a week</h5>
+              <p style="text-shadow: 2px 2px 0px rgb(68, 68, 68); font-size:2em;">3003 Grape Street, San Diego, CA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/carousel/counter1_1200x600.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7:30am — 2:30pm</h5>
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7 days a week</h5>
+            <p style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">3003 Grape Street, San Diego, CA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/carousel/window1_1200x600.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7:30am — 2:30pm</h5>
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7 days a week</h5>
+            <p style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">3003 Grape Street, San Diego, CA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/carousel/exterior1_1200x600.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7:30am — 2:30pm</h5>
+            <h5 class="display-4" style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">7 days a week</h5>
+            <p style="text-shadow: 2px 2px 0px rgb(68, 68, 68);">3003 Grape Street, San Diego, CA</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselHero" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselHero" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+  <!-- MENU -->
+  <!-- https://getbootstrap.com/docs/4.0/components/collapse/ -->
+  
+  <!-- ABOUT MENU BUTTON -->
+  <div id="menuHeaderContainer" class="container"  style="padding-top:100px;">
+    <div id="menuHeader" class="row justify-content-center">
+      <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 show active-color" type="button" data-toggle="collapse" data-target="#aboutMenu" aria-expanded="true" aria-controls="favorites">About Our Menu</button>
+    </div>
+  </div>
+  <hr>
+
+  <!-- ABOUT MENU ITEMS -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="menuDrop collapse multi-collapse mt-2 show" id="aboutMenu">
+          <div class="card card-body menu-card-size">
+            <div>Breakfast & Lunch served all day!</div>
+          </div>
+      </div>
+    </div>
+  </div>
+      
+  
+  <!-- BREAKFAST HEADER BUTTONS -->
+  <div id="menuBreakfastContainer" class="container">
+    <!-- BREAKFAST BUTTONS -->
+    <div id="menuBreakfastHeader" class="container">
+      <div class="row justify-content-center">
+        <div><h3>Breakfast Menu</h3></div>
+      </div>
+    </div>
+    <div id="menuBreakfast" class="container">
+      <div class="row justify-content-center">
+        <!-- OMELET BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#omelet" aria-expanded="false" aria-controls="favorites">Omelets — Proven Favorites!</button>
+        <!-- FAVORITES BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#favorites" aria-expanded="false" aria-controls="favorites">Favorites of Our Regulars</button>
+        <!-- EGG COMBO BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#eggCombo" aria-expanded="false" aria-controls="eggCombo">Egg Combinations</button>
+        <!-- SCRAMBLE BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#scramble" aria-expanded="false" aria-controls="eggCombo">World Famous Scrambles</button>
+        <!-- FRITATTA BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#fritatta" aria-expanded="false" aria-controls="eggCombo">Big Kitchen Fritattas</button>
+        <!-- SUBSTITUTION BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#pancake" aria-expanded="false" aria-controls="eggCombo">Pancakes & Such</button>
+        <!-- KIDS KORNER BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#aLaCarte" aria-expanded="false" aria-controls="eggCombo">B-fast A La Carte</button>
+        <!-- SUBSTITUTION BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#substitution" aria-expanded="false" aria-controls="eggCombo">Substitutions</button>
+        <!-- KIDS KORNER BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#kidBreakfast" aria-expanded="false" aria-controls="eggCombo">Kids Korner - Breakfast</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- BREAKFAST ITEMS -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- OMELETS ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="omelet">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>Served with home fries or rice, and toast</i></p></div>
+          <div><p class="text-center"><i>(All available with egg whites)</i></p></div>
+          <div><b>Cheese Omelet</b> — Choice of Jack, Cheddar, Swiss, Cream Cheese or Bleu Cheese</div>
+          <div><b>Turkey, Spinach, Onion, & Cheese Omelet</b></div>
+          <div><b>Mushroom & Cheese Omelet</b></div>
+          <div><b>Chili Cheese Omelet</b></div>
+          <div><b>Veggie & Cheese Omelet</b> — Sautéed Mushrooms, Onions, Green Peppes, Zucchini, & Spinach</div>
+          <div><b>Avocado, Cream Cheese & Chive Omelet</b></div>
+          <div><b>Mexican Cheese Omelet</b> — Chorizo, Mushrooms, Onions, Green Peppers, Zucchini, & Jack Cheese</div>
+          <div><b>Spinach, Mushroom & Cheese Omelet</b> — Hugh & Jean Special</div>
+          <div class="border border-dark my-3 px-2">
+            <h4 class="text-center">Feeling Creative?</h4>
+            <p class="text-center"><i>Personalize your omelet with these options!</i></p>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="border border-dark rounded mx-2 mb-2 px-1">
+                <div><h5 class="text-center">Meat & Poultry</h5></div>
+                <div>Bacon</div>
+                <div>Sausage</div>
+                <div>Hamburger</div>
+                <div>Honey Baked Ham</div>
+                <div>Chorizo</div>
+                <div>SoyRizo</div>
+                <div>Chili</div>
+                <div>Roast Turkey</div>
+              </div>
+              <div class="border border-dark rounded mx-2 mb-2 px-1">
+                <div><h5 class="text-center">Cheeses</h5></div>
+                <div>Jack</div>
+                <div>Cream</div>
+                <div>Cheddar</div>
+                <div>Swiss</div>
+                <div>Bleu</div>
+              </div>
+              <div class="border border-dark rounded mx-2 mb-2 px-1">
+                <div>
+                  <h5 class="text-center">Vegetables</h5>
+                </div>
+                <div>Spinach</div>
+                <div>Mushrooms</div>
+                <div>Onions</div>
+                <div>Carrots</div>
+                <div>Green Peppers</div>
+                <div>Roasted Garlic</div>
+                <div>Zucchini</div>
+                <div>Green Chilies</div>
+                <div>Black Beans</div>
+                <div>Tomato</div>
+                <div>Chives</div>
+                <div>Cilantro</div>
+                <div>Avocado</div>
+                <div>Tofu</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- FAVORITES ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="favorites">
+        <div class="card card-body menu-card-size">
+          <b>André's Suggestions</b> — 1 biscuit & sausage gravy with 2 eggs & 2 strips of bacon; OR 1 biscuit & veggie gravy with extra veggies & fruit<br>
+          <b>Whoopie's Breakfast</b> — 2 eggs any style, bacon, potatoes, toast, and large orange juice<br>
+          <b>Nova's Favorite</b> — Spinach, eggs, and cheese scrumptiously scrambled and served with fruit, tortillas, small fresh squeezed O.J. and lots of salsa<br>
+          <b>Bob's High Carbohydrate Runner's Breakfast</b> — 1 high protein pancake, 2 eggs any style, and potatoes<br>
+          <b>Lily's Special</b> — Bowl of rice & cheese, small fruit plate, muffin<br>
+          <b>Laura's Regular</b> — 1/2 raisin bread French toast, 2 strips of bacon, 1 egg<br>
+          <b>Damian's Breakfast Burrito</b> — 2 eggs scrambled with salsa, avocado, and cheese, rolled in a tortilla, topped with sour cream and served with potatoes<br>
+          <b>Dick's Diet Delight</b> — 2 eggs poached on an English muffin, seasonal fruit or small O.J.<br>
+          <b>John's Special</b> — Granola with seasonal fruit and muffin; OR oatmeal with seasonal fruit and muffin<br>
+        </div>
+      </div>
+  
+      <!-- EGG COMBO ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="eggCombo">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>Served with home fries or rice, and toast</i></p></div>
+          <div><p class="text-center"><i>(All available with egg whites)</i></p></div>
+          <div>1 egg any style</div>
+          <div>2 eggs any style</div>
+          <div>2 eggs, 2 strips of Bacon</div>
+          <div>2 eggs, 4 strips of bacon</div>
+          <div>2 eggs, sausage</div>
+          <div>2 eggs Ham <i>PJ's Fave</i></div>
+          <div>2 eggs, turkey</div>
+          <div>2 eggs, hamburger patty</div>
+          <div>2 eggs, corned beef hash</div>
+          <div>Huevos rancheros</div>
+          <div>Rudy's Huevos Rancheros <i>Chorizo, beans, & green chilies</i></div>
+        </div>
+      </div>
+  
+      <!-- SCRAMBLE ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="scramble">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>Served with home fries or rice, and toast</i></p></div>
+          <div><p class="text-center"><i>(All available with egg whites or tofu)</i></p></div>
+          <div><b>Golden Hill Favorite</b> — Spinach Eggs & Cheese</div>
+          <div><b>Rozie's Special</b> — Bacon, Cream Cheese, Onion & Eggs</div>
+          <div><b>Larry Himmel's Choice</b> — Chorizo & Eggs</div>
+          <div><b>Cindy's Choide</b> — Green Chilies & Eggs</div>
+          <div><b>Judy's Favorite</b> — Spinach, Mushrooms, Sherry & Eggs</div>
+        </div>
+      </div>
+  
+      <!-- FRITATTAS ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="fritatta">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>Served with home fries or rice, and toast</i></p></div>
+          <div><b>BK Fritatta</b> — Roasted Garlic, Eggs, Onion & Potato</div>
+          <div><b>Kirk's Choice</b> — Bacon, Bleu Cheese, Eggs & Mushrooms</div>
+          <div><b>Denver Fritatta</b> — Ham, Bell Pepper, Onion, Eggs & Cheddar Cheese</div>
+        </div>
+      </div>
+  
+      <!-- VEGGIE OPTIONs -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="veggie">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>(Add eggs, tofu, or roasted garlic)</i></p></div>
+          <div>Sautéed zucchini, mushrooms, onions, carrots, green peppers & brown rice</div>
+          <div>Sautéed spinach, mushrooms, onions, cilantro & brown rice</div>
+          <div>Sautéed green chilies, mushrooms, onions & brown rice</div>
+          <div>Steamed seasonal vegetables & brown rice</div>
+          <div>Tofu Rancheros — Sautéed veggies & tofu on a corn tortilla with salsa & cheese</div>
+        </div>
+      </div>
+  
+      <!-- PANCAKES & SUCH -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="pancake">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i></i></p></div>
+          <div>One big buttermilk pancake (<i>if you can eat two, the second is half price!</i>)</div>
+          <div>One big high-pro pancake</div>
+          <div>Waffle</div>
+          <div>French toast (<i>made with challah bread</i>)</div>
+          <div>Raisin bread french toast</div>
+          <div>Biscuits & sausage gravy</div>
+          <div>Biscuits & vegetable gravy</div>
+          <div class="my-3 px-2">
+            <h4 class="text-center">Add something exciting to any pancake order!</h4>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="border border-dark rounded mx-2 mb-2 px-1">
+                <div>Bananas</div>
+                <div>Chopped walnuts</div>
+                <div>Fresh strawberries</div>
+                <div>A variety of fruit</div>
+                <div>Real maple syrup</div>
+                <div>Blueberries</div>
+                <div>Creamy peanut butter</div>
+              </div>
+            </div>
+          </div>
+          <div class="my-3 px-2">
+            <h4 class="text-center">Make it a feast!</h4>
+            <p class="text-center"><i>Pancake add-ons:</i></p>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="border border-dark rounded mx-2 mb-2 px-1">
+                <div>Bacon</div>
+                <div>Sausage</div>
+                <div>Hamburger</div>
+                <div>Honey Baked Ham</div>
+                <div>Chorizo</div>
+                <div>SoyRizo</div>
+                <div>Chili</div>
+                <div>Roast Turkey</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- BREAKFAST A LA CARTE -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="aLaCarte">
+        <div class="card card-body menu-card-size text-left">
+          <div>1 or 2 eggs</div>
+          <div>Egg whites</div>
+          <div>Ham</div>
+          <div>Sausage</div>
+          <div>Bacon (2 or 4 strips)</div>
+          <div>Cottage cheese</div>
+          <div>Yogurt</div>
+          <div>Potatoes</div>
+          <div>Rice</div>
+          <div>Toast</div>
+          <div>Raisin toast</div>
+          <div>Muffin</div>
+          <div>Biscuit</div>
+          <div>Bagel & cream cheese</div>
+          <div>Coffee cake</div>
+          <div>Fruit plate</div>
+          <div>Granola</div>
+          <div>Granola & Fruit</div>
+          <div>Oatmeal</div>
+          <div>Oatmeal & fruit</div>
+          <div>Sour cream</div>
+        </div>
+      </div>
+  
+      <!-- SUBSTITUTIONS ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="substitution">
+        <div class="card card-body menu-card-size">
+          <div>
+            <div><h5 class="text-center">Potato Substitutions</h5></div>
+            <div>Fresh Fruit</div>
+            <div>Tomatoes</div>
+            <div>Cottage Cheese</div>
+            <div>Black Beans</div>
+          </div>
+          <div>
+            <div><h5 class="text-center">Toast Substitutions</h5></div>
+            <div>Raisin Toast</div>
+            <div>Biscuits</div>
+            <div>Coffee Cake</div>
+            <div>Bagel</div>
+            <div>English Muffin</div>
+            <div>Tortillas</div>
+            <div>Homemade Muffins (<i>Carrot or Zucchini</i>)</div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- KIDS BREAKFAST KORNER ITEMS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="kidBreakfast">
+        <div class="card card-body menu-card-size">
+          <div><h5 class="text-center"><i>Stella's Suggestions:</i></h5></div>
+          <div><p class="text-center"><i>(10 and under)</i></p></div>
+          <div>1 egg, potatoes, 1 slice of toast</div>
+          <div>Kid size pancake, 1 egg, 1 strip of bacon</div>
+          <div>1/2 order Lily's</div>
+          <div>Cup of granola (<i>add fruit</i>)</div>
+          <div>Fruit cuppette</div>
+          <div>Cup of oatmeal (<i>add fruit</i>)</div>
+          <div>Waffle</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LUNCH HEADER BUTTONS -->
+  <div id="menuHeaderContainer" class="container">
+    <!-- LUNCH BUTTONS -->
+    <div id="menuLunchHeader" class="container">
+      <div class="row justify-content-center">
+        <div><h3>Lunch Menu</h3></div>
+      </div>
+    </div>
+    <div id="menuLunch" class="container">
+      <div class="row justify-content-center">
+        <!-- LUNCH SPECIALS BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#lunchSpecial" aria-expanded="false" aria-controls="favorites">Lunch Specials</button>
+        <!-- BIG SALADS BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#salad" aria-expanded="false" aria-controls="favorites">Big Salads</button>
+        <!-- SANDWICHES BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#sandwich" aria-expanded="false" aria-controls="eggCombo">Sandwiches</button>
+        <!-- BURGERS BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="eggCombo">Burgers</button>
+        <!-- BIG BOWL SPECIALTIES BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#bowl" aria-expanded="false" aria-controls="eggCombo">Big Bowl Specialties</button>
+        <!-- VEGGIE OPTION BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#veggie" aria-expanded="false" aria-controls="eggCombo">Veggie Options</button>
+        <!-- KIDS LUNCH KORNER BUTTON -->
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#kidLunch" aria-expanded="false" aria-controls="eggCombo">Kids Korner — Lunch</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LUNCH ITEMS -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- LUNCH SPECIALS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="lunchSpecial"> 
+        <div class="card card-body menu-card-size">
+          <div><h5 class="text-center"><i>Specials beginning at 11:30am</i></h5></div>
+          <div><b>Monday</b> — Chef's choice</div>
+          <div><b>Tuesday</b> — Chef's choice</div>
+          <div><b>Wednesday</b> — Turkey dinner</div>
+          <div><b>Thursday</b> — Hot meatloaf sandwich</div>
+          <div><b>Friday</b> — Chicken or tofu fajitas</div>
+        </div>
+      </div>
+  
+      <!-- BIG SALADS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="salad">
+        <div class="card card-body menu-card-size">
+          <div><b>Chef Salad</b> — Tossed green salad with turkey, ham, cheese & vegetables</div>
+          <div><b>BK Tuna Salad</b> — Tuna, potatoes, vegetables & onions with vinaigrette</div>
+          <div><b>BBQ Chicken Breast Salad</b> — Sliced BBQ chicken breast on a large tossed green salad</div>
+          <div><b>Cobb Salad</b> — Turkey, bacon, bleu cheese, avocado, tomato & cucumber with vinaigrette</div>
+          <div><b>Spinach Salad</b> — Spinach with mushrooms, onion, egg, bacon, and beets</div>
+          <div><b>Big Apple Salad</b> — Apple, walnut, and bleu cheese with lettuce, tomato, cucumber, and onions, tossed in vinaigrette</div>
+          <div><b>BK Veggie Salad</b> — All the veggies in the kitchen & cheese</div>
+          <div><b>Tossed Green Salad</b></div>
+        </div>
+      </div>
+  
+      <!-- SANDWICHES -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="sandwich">
+        <div class="card card-body menu-card-size">
+          <div><h5 class="text-center"><i>Substitutions for potato: Potato salad or green salad</i></h5></div>
+          <div><b>Grilled Cheese:</b></div>
+          <div>
+            <ul>
+              <li><i>with tuna</i></li>
+              <li><i>with mushrooms</i></li>
+              <li><i>with turkey</i></li>
+              <li><i>with sausage</i></li>
+              <li><i>with ham</i></li>
+            </ul>
+          </div>
+          <div>Quesadilla</div>
+          <div>Egg salad</div>
+          <div>Tuna salad</div>
+          <div>Tuna, cucumber, & cheese</div>
+          <div>BLT</div>
+          <div>Honey baked ham</div>
+          <div>Big Kitchen meatloaf</div>
+          <div>Fresh roasted turkey</div>
+          <div>Grilled chicken breast</div>
+          <div>LGBTQ — <i>Lettuce, Guacamole, Bacon, & Tomato... and Qality</i></div>
+          <div>Chicken, chili'n'chese — <i>Grilled chicken with green chilies & Cheddar</i></div>
+          <div>Big Kitchen Club — <i>Bacon, lettuce, tomato, and turkey (add avocado, aka: BLATT)</i></div>
+          <div>Jake's Special — <i>Turkey, horseradish-cream cheese, & cranberry sauce</i></div>
+          <div>Catherine's Suggestion — <i>Turkey, cream cheese, & cucumber on rye</i></div>
+          <div>Mushroom & avocado</div>
+          <div>Tomato & cheese <i>(open faced)</i></div>
+        </div>
+      </div>
+  
+      <!-- BURGERS -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="burger">
+        <div class="card card-body menu-card-size">
+          <div class="text-center"><i>Surved with lettuce, tomato, & mayo and a side of potatoes</i></div>
+          <div><b>Big Kitchen Burger</b> — <i>Jim's Favorite</i></div>
+          <div><b>Germaine's Ghetto Burger</b> — Burger with bacon, cheddar, onions, mayo, & catsup</div>
+          <div><b>Serrano Burger</b> — Burger with serrano chilies, grilled onions, green pepper, & jack cheese</div>
+          <div><b>Tofu Burger</b> — Sautéed tofu patty in tamari sauce and garlic</div>
+          <div><b>Très Bien Burger</b> — Burger with bleu cheese, onion, and roasted garlic</div>
+          <div><b>Jose's Burger</b> — Burger on grilled sourdough with green chilies, onions, jack and chipotle cream cheese</div>
+          <div><b>Swiss Melt</b> — Burger with sautéed mushrooms and onions and swiss cheese</div>
+          <div><b>Steve's Burger</b> — Burger with BK chili, red onion, & cheddar</div>
+          <div><b>Hilo Burger</b> — Burger with chopped bacon, fresh grilled pineapple, jack cheese, & BBQ sauce</div>
+          <div><b>Jaimie's Burger</b> — Burger with chopped bacon, avocado, cheddar cheese, red onion, lettuce, & tomato</div>
+          <div><b>Joy Burger</b> — Vegetarian patty</div>
+          <div><hr></div>
+          <div><i>Substitutions for beef patties:</i></div>
+          <div><i>Tofu patty, vegetarian patty, or grilled chicken</i></div>
+        </div>
+      </div>
+  
+      <!-- BG BOWL SPECIALTIES -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="bowl">
+        <div class="card card-body menu-card-size">
+          <div>Homemade soups</div>
+          <div>Black bean chili</div>
+          <div>Big Kitchen chili</div>
+          <div>Brown rice, black beans, & tortillas</div>
+          <div>Mack & Cheese</div>
+          <div>Big Mack & Cheese — <i>with green chilies, corn, sausage, & bacon bits</i></div>
+          <div>Big Veggie Mack & Cheese</div>
+        </div>
+      </div>
+  
+      <!-- KIDS LUNCH KORNER -->
+      <div class="menuDrop collapse multi-collapse mt-2" id="kidLunch">
+        <div class="card card-body menu-card-size">
+          <div><p class="text-center"><i>(10 and under)</i></p></div>
+          <div>Peanut butter & jelly</div>
+          <div>Peanut butter & banana</div>
+          <div>Turkey sandwich — <i>with mustard or mayo (no extras)</i></div>
+          <div>Stella's burger with salad</div>
+          <div>Bowl of rice & beans</div>
+          <div>Quesadilla</div>
+          <div>Cup of soup</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <hr>
+
+  <!-- BEVERAGE HEADER BUTTONS -->
+  <div id="menuHeaderContainer" class="container">
+    <!-- BEVERAGE BUTTON -->
+    <div id="menuBeveragetHeader" class="container">
+      <div class="row justify-content-center">
+        <div><h3>Beverage Menu</h3></div>
+      </div>
+    </div>
+    <div id="menuBeverage" class="container">
+      <div class="row justify-content-center">
+
+        <button class="menuButton btn btn-primary mt-3 ml-1 mr-1 collapsed" type="button" data-toggle="collapse" data-target="#beverage" aria-expanded="false" aria-controls="favorites">Beverages</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BEVERAGE ITEMS -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="menuDrop collapse multi-collapse mt-2" id="beverage">
+        <div class="card card-body menu-card-size">
+          <div>Kona Coffee</div>
+          <div>Decaf</div>
+          <div>Tea</div>
+          <div>Herbal Tea</div>
+          <div>Iced Tea</div>
+          <div>Hot Chocolate</div>
+          <div>Coca-Cola</div>
+          <div>7-Up</div>
+          <div>Diet Coke</div>
+          <div>Sprite</div>
+          <div>Lemonade</div>
+          <div>Pop-Up Drink — <i>banana, wheat germ, bran, milk, granola</i></div>
+          <div>Fruit Smoothie</div>
+          <div>Aloe Vera Juice</div>
+          <div>Apple Juice</div>
+          <div>Cranberry Juice</div>
+          <div>V8 Juice</div>
+          <div>Milk</div>
+          <div>Chocolate Milk</div>
+          <div>Soy Milk</div>
+          <div>Fresh Squeezed Organic Orange Juice</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- LOREM IPSUM EXTENDER -->
+  <div id="about">
+  <div id="loremPadding" class="card w-50 align-items-center">
+    <div id="lorem">
+        <h1 class="display-4  style="text-shadow: 2px 2px 0px rgb(68, 68, 68);"text-center">LOREM</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi fugit in corporis exercitationem odio fugiat natus beatae vel, modi iure voluptatibus dolore? Dicta quibusdam eos modi voluptates. Dolor, illo unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eum possimus mollitia quam rerum dolorem vero temporibus asperiores sunt maxime ex, optio consequuntur eveniet nisi similique itaque illo repellat. Molestias, delectus. Eum fugit laboriosam ducimus sequi impedit atque quia inventore commodi eaque pariatur! Repellat necessitatibus fugit asperiores sapiente corporis incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus inventore harum aut, error veritatis iure ratione amet voluptatum, autem, aliquam facilis minima ipsa modi quidem necessitatibus odio? Quae animi quisquam est praesentium eaque neque, ab sed nostrum odit ad. Totam, vitae eos eveniet dolorem maxime consectetur perferendis odio deleniti! Laborum cupiditate, totam libero alias adipisci deleniti earum fugit esse ab veritatis, pariatur autem sint error accusamus porro! Ullam itaque nemo cum obcaecati suscipit, consequatur quia tempore nam cupiditate perspiciatis id nostrum dignissimos illo veniam. Quo at perspiciatis iusto sit tempore provident numquam. Vero ad porro alias minima nulla dolorum amet eius omnis! Cupiditate molestias officia voluptates quidem sapiente? Dicta, amet eos distinctio adipisci debitis veniam omnis commodi incidunt nam ullam corrupti nulla reiciendis. Animi dicta odio, perspiciatis veniam sapiente itaque officia laborum ea ducimus suscipit reiciendis recusandae dignissimos, tempore quia. Quo neque consectetur voluptates nisi est repellendus quos omnis quidem? Sunt, voluptates! Eos accusantium deleniti rerum iusto ea nostrum, et quia quidem explicabo, vero cupiditate assumenda? Repellendus eius impedit, iure reprehenderit debitis corporis, laboriosam laudantium nemo neque quae dolorem ratione soluta nam sapiente velit architecto dolorum! Perspiciatis expedita laudantium totam vitae harum atque itaque dolores sint amet voluptatem ex quidem pariatur voluptate soluta nihil deleniti, exercitationem nemo, cupiditate iste ipsam dicta. Fuga aliquid explicabo odit sed soluta perspiciatis distinctio consequatur voluptatibus aperiam esse numquam magnam facilis dolores delectus neque, fugit doloremque necessitatibus velit impedit! Inventore illo ratione perferendis, tenetur debitis saepe incidunt magnam nesciunt laudantium quis ipsum, nisi nemo maiores modi quibusdam eligendi consectetur vel. Fuga maxime ducimus ipsum reiciendis ut et perspiciatis recusandae tempora! Ratione aut dolorum rem repellat ducimus, labore cumque iusto autem incidunt eveniet aperiam? 
+        </p>
+    </div>
+  </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- TOGGLE MENUS -->
+    <script>
+      $('.menuButton').click(function(){
+        $('.menuDrop').removeClass('show')
+      });
+    </script>
+
+    <script>
+      $("button").click(function(){
+        $("button").removeClass("active-color");
+        $(this).addClass("active-color");
+      });
+    </script>
+
+  </footer>
+
+</body>
+</html>

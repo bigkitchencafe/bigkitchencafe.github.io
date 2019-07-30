@@ -1,0 +1,43 @@
+﻿Navbar Section
+	- On small screens only have the BK logo (no building)
+	- Make nav text responsive
+
+Header Section
+	- Window image?
+	- Hours, address, phone
+	- Extra intra-page hyperlink to menu
+
+About section ~Explicit, full of history~
+	- Kitchen History
+	- Judy biography
+
+Menu
+	- Add "About the menu" button
+	- Lunch/breakfast avail all day
+	- Beverage section
+
+Events
+	- Upcoming performers
+	- Upcoming pop-ups
+	- {add google calendar widget}
+
+News
+	- Documentary
+	- Awards
+	- Television
+
+Catering
+
+{Big Kitchen Lore}
+	- Musical
+	- Parades
+	- Add your story submission form
+
+Meet the staff
+
+Contact
+	- Facebook
+	- Contact Form
+	- Hours
+	- Address
+	- Google maps
