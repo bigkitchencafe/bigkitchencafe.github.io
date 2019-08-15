@@ -121,6 +121,7 @@ nav {
 
 /* #endregion CAROUSEL */
 
+/* #region SMALL SCREEN INFO */
 #smallScreenInfo {
   margin-top:20px;
   border: none;
@@ -131,6 +132,8 @@ nav {
     display: none;
   }
 }
+
+/* #endregion SMALL SCREEN INFO */
 
 /* #region  MENU */
 
@@ -232,6 +235,12 @@ nav {
 
 .ruleItems {
   font-weight: 600;
+}
+
+@media (max-width:725px) {
+  #aboutDescription p {
+    padding-bottom: 4vw;
+  }
 }
 
 /* #endregion ABOUT */
