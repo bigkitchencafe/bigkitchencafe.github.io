@@ -97,6 +97,11 @@ nav {
 /* #endregion NABAR */
 
 /* #region CAROUSEL */
+@media (max-width:575px) {
+  #carouselHero {
+    margin-top:65px;
+  }
+}
 
 .carousel-caption h5 {
   font-weight: 500 !important;
