@@ -264,6 +264,15 @@ nav {
   margin-top:50px;
   padding: 0 5vw  5vw;
 }
+
+#eventLine {
+  border: 1px dashed #000;
+  width: 10%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 /* #endregion EVENTS */
 
 /* #region NEWS */
