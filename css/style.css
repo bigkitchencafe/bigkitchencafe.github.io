@@ -1,3 +1,7 @@
+body {
+  background-color: #800020;
+}
+
 /* #region NAVBAR */
 
 nav {
@@ -136,6 +140,7 @@ nav {
 /* #endregion SMALL SCREEN INFO */
 
 /* #region  MENU */
+
 
 #accordion {
     width: 50vw;
@@ -277,8 +282,14 @@ nav {
 
 /* #region NEWS */
 
+#news {
+  margin: 40px 0 40px 0;
+  /* padding: 0 5vw  5vw; */
+}
+
 #newsArticles {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #newsHeader {
@@ -358,6 +369,10 @@ nav {
 /* #endregion NEWS */
 
 /* #region CONTACT */
+
+#contact {
+  background-color: white;
+}
 
 #mapContainer {
   text-align: center;
